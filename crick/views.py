@@ -12,6 +12,8 @@ from . serializers import  ttSerializer
 from crick import serializers
 import random
 
+def home(requests):
+    return HttpResponse("<h1>hello</h1>")
 
 
 class playerlist(APIView):
