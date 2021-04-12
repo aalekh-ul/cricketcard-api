@@ -68,12 +68,12 @@ WSGI_APPLICATION = 'rest.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'crickgame_api',
-        'HOST': '127.0.0.1',
-        'PORT': '3306',
-        'USER': 'root',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'crick',                      
+        'USER': 'postgres',
         'PASSWORD': 'mrrobot',
+        'HOST': 'localhost',
+        'PORT': '5432',
     }
 }
 
