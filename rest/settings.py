@@ -67,8 +67,8 @@ WSGI_APPLICATION = 'rest.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
-DATABASES = {
-    'default': dj_database_url.config(default = ‘URI of DB on Heroku’)}
+DATABASES = {'default': dj_database_url.config(default="postgres://nyquebpwthxqey:a7e664ecadc0443140e4b2934f31057bd9a08cf6be27cce254e2a62790ea9e87@ec2-54-211-176-156.compute-1.amazonaws.com:5432/dar0gi6rh1r0bq")}
+
 
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
