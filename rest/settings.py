@@ -2,6 +2,7 @@
 
 from pathlib import Path
 import os
+import dj_database_url
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -67,14 +68,7 @@ WSGI_APPLICATION = 'rest.wsgi.application'
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'crick',                      
-        'USER': 'postgres',
-        'PASSWORD': 'mrrobot',
-        
-    }
-}
+    'default': dj_database_url.config(default = ‘URI of DB on Heroku’)}
 
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
