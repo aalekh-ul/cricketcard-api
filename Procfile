@@ -1,2 +1,2 @@
-web: gunicorn REST-COPY.wsgi:application --log-file -
+web: gunicorn rest.wsgi
 python manage.py collectstatic --noinput
