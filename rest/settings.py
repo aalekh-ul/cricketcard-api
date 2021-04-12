@@ -72,8 +72,7 @@ DATABASES = {
         'NAME': 'crick',                      
         'USER': 'postgres',
         'PASSWORD': 'mrrobot',
-        'HOST': 'localhost',
-        'PORT': '5432',
+        
     }
 }
 
