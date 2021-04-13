@@ -70,10 +70,10 @@ WSGI_APPLICATION = 'rest.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'crick',                      
-        'USER': 'postgres',
-        'PASSWORD': 'mrrobot',
-        'HOST': '127.0.0.1',
+        'NAME': 'dar0gi6rh1r0bq',                      
+        'USER': 'nyquebpwthxqey',
+        'PASSWORD': 'a7e664ecadc0443140e4b2934f31057bd9a08cf6be27cce254e2a62790ea9e87',
+        'HOST': 'ec2-54-211-176-156.compute-1.amazonaws.com',
         'PORT': '5432',
     }
 }
