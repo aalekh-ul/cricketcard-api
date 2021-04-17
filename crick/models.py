@@ -13,7 +13,7 @@ class tt(models.Model):
     matches=models.IntegerField(max_length=4)
     hundreds=models.IntegerField(max_length=4)
     avg=models.FloatField(max_length=8)
-    strikrate=models.FloatField(max_length=8)
+    strikerate=models.FloatField(max_length=8)
     wickets=models.IntegerField(max_length=4)
     economy=models.FloatField(max_length=8)
 

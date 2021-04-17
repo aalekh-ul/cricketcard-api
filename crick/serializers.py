@@ -6,5 +6,5 @@ from .models import players,tt
 class ttSerializer(serializers.ModelSerializer):
     class Meta():
         model=tt
-        fields= ('player','runs','wickets','strikrate','matches','hundreds','avg','economy')
+        fields= ('player','runs','wickets','strikerate','matches','hundreds','avg','economy')
         depth=1

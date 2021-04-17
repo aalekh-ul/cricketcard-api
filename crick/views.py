@@ -27,9 +27,10 @@ class playerlist(APIView):
 
 class random_playerlist(APIView):
     def get(self,request):
-            
+            x=self.request.query_params['tp']
+            print(x)
             item=list(tt.objects.all())
-            item=random.sample(item,10)
+            item=random.sample(item,int(x))
             wserializer=ttSerializer(item,many=True)
             result=wserializer.data
             return Response(result)
